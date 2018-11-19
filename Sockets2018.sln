@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-SocketClienteDatos", "04
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-ServidorTCPStream", "05-ServidorTCPStream\05-ServidorTCPStream.csproj", "{4A9C5AB2-5E8C-4D29-B3E0-6ACE739CC8E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-ClienteTCPStream", "06-ClienteTCPStream\06-ClienteTCPStream.csproj", "{70BED1B8-5669-4A8F-A5A5-67EA923C6D1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-MultiSocketServer", "07-MultiSocketServer\07-MultiSocketServer.csproj", "{92DCA322-42B0-4836-BF1B-8C2DAFC6C86A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{4A9C5AB2-5E8C-4D29-B3E0-6ACE739CC8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A9C5AB2-5E8C-4D29-B3E0-6ACE739CC8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A9C5AB2-5E8C-4D29-B3E0-6ACE739CC8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70BED1B8-5669-4A8F-A5A5-67EA923C6D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BED1B8-5669-4A8F-A5A5-67EA923C6D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BED1B8-5669-4A8F-A5A5-67EA923C6D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BED1B8-5669-4A8F-A5A5-67EA923C6D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92DCA322-42B0-4836-BF1B-8C2DAFC6C86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DCA322-42B0-4836-BF1B-8C2DAFC6C86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DCA322-42B0-4836-BF1B-8C2DAFC6C86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DCA322-42B0-4836-BF1B-8C2DAFC6C86A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

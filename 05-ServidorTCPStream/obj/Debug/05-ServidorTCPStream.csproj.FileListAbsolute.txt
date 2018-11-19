@@ -8,3 +8,13 @@ C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets2018\05-ServidorTCPStream\ob
 C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets2018\05-ServidorTCPStream\obj\Debug\05-ServidorTCPStream.csproj.CoreCompileInputs.cache
 C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets2018\05-ServidorTCPStream\obj\Debug\05-ServidorTCPStream.exe
 C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets2018\05-ServidorTCPStream\obj\Debug\05-ServidorTCPStream.pdb
+C:\Users\ruben\Documents\GitHub\Sockets2018-Prueba\05-ServidorTCPStream\obj\Debug\05-ServidorTCPStream.exe
+C:\Users\ruben\Documents\GitHub\Sockets2018-Prueba\05-ServidorTCPStream\obj\Debug\05-ServidorTCPStream.pdb
+C:\Users\ruben\Documents\GitHub\Sockets2018-Prueba\05-ServidorTCPStream\bin\Debug\05-ServidorTCPStream.exe.config
+C:\Users\ruben\Documents\GitHub\Sockets2018-Prueba\05-ServidorTCPStream\bin\Debug\05-ServidorTCPStream.exe
+C:\Users\ruben\Documents\GitHub\Sockets2018-Prueba\05-ServidorTCPStream\bin\Debug\05-ServidorTCPStream.pdb
+C:\Users\ruben\Documents\GitHub\Sockets2018-Prueba\05-ServidorTCPStream\obj\Debug\05-ServidorTCPStream.csprojAssemblyReference.cache
+C:\Users\ruben\Documents\GitHub\Sockets2018-Prueba\05-ServidorTCPStream\obj\Debug\_05_ServidorTCPStream.Form1.resources
+C:\Users\ruben\Documents\GitHub\Sockets2018-Prueba\05-ServidorTCPStream\obj\Debug\_05_ServidorTCPStream.Properties.Resources.resources
+C:\Users\ruben\Documents\GitHub\Sockets2018-Prueba\05-ServidorTCPStream\obj\Debug\05-ServidorTCPStream.csproj.GenerateResource.cache
+C:\Users\ruben\Documents\GitHub\Sockets2018-Prueba\05-ServidorTCPStream\obj\Debug\05-ServidorTCPStream.csproj.CoreCompileInputs.cache

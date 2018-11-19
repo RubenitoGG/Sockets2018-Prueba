@@ -38,7 +38,7 @@ namespace _05_ServidorTCPStream
 
             // Enviamos mensaje:
             writer.WriteLine("Bienvenido");
-            writer.Flush(); // Garantizados que lo envía, si no lo envía cuando pueda. Paraliza el programa hasta que se envía.
+            writer.Flush(); // Garantizamos que lo envía, si no, lo envía cuando pueda. Paraliza el programa hasta que se envía.
 
             this.label1.Text = "";
 

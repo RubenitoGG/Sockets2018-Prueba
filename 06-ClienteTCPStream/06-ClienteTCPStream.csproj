@@ -7,7 +7,7 @@
     <ProjectGuid>{70BED1B8-5669-4A8F-A5A5-67EA923C6D1D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>_06_ClienteTCPStream</RootNamespace>
-    <AssemblyName>_06_ClienteTCPStream</AssemblyName>
+    <AssemblyName>06-ClienteTCPStream</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
