@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-ClienteTCPStream", "06-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-MultiSocketServer", "07-MultiSocketServer\07-MultiSocketServer.csproj", "{92DCA322-42B0-4836-BF1B-8C2DAFC6C86A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-MultiSocketCliente", "08-MultiSocketCliente\08-MultiSocketCliente.csproj", "{1E11E2D5-654E-4A22-8A43-576418844A20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{92DCA322-42B0-4836-BF1B-8C2DAFC6C86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92DCA322-42B0-4836-BF1B-8C2DAFC6C86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92DCA322-42B0-4836-BF1B-8C2DAFC6C86A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E11E2D5-654E-4A22-8A43-576418844A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E11E2D5-654E-4A22-8A43-576418844A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E11E2D5-654E-4A22-8A43-576418844A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E11E2D5-654E-4A22-8A43-576418844A20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
