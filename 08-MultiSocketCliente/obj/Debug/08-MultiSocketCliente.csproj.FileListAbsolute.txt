@@ -8,3 +8,13 @@ C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets2018\08-MultiSocketCliente\o
 C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets2018\08-MultiSocketCliente\obj\Debug\08-MultiSocketCliente.csproj.CoreCompileInputs.cache
 C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets2018\08-MultiSocketCliente\obj\Debug\08-MultiSocketCliente.exe
 C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets2018\08-MultiSocketCliente\obj\Debug\08-MultiSocketCliente.pdb
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\08-MultiSocketCliente\bin\Debug\08-MultiSocketCliente.exe.config
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\08-MultiSocketCliente\bin\Debug\08-MultiSocketCliente.exe
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\08-MultiSocketCliente\bin\Debug\08-MultiSocketCliente.pdb
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\08-MultiSocketCliente\obj\Debug\08-MultiSocketCliente.csprojAssemblyReference.cache
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\08-MultiSocketCliente\obj\Debug\_08_MultiSocketCliente.Form1.resources
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\08-MultiSocketCliente\obj\Debug\_08_MultiSocketCliente.Properties.Resources.resources
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\08-MultiSocketCliente\obj\Debug\08-MultiSocketCliente.csproj.GenerateResource.cache
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\08-MultiSocketCliente\obj\Debug\08-MultiSocketCliente.csproj.CoreCompileInputs.cache
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\08-MultiSocketCliente\obj\Debug\08-MultiSocketCliente.exe
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\08-MultiSocketCliente\obj\Debug\08-MultiSocketCliente.pdb

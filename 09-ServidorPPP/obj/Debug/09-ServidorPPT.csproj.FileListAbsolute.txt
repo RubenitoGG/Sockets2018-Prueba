@@ -1,0 +1,9 @@
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\09-ServidorPPP\bin\Debug\09-ServidorPPP.exe.config
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\09-ServidorPPP\bin\Debug\09-ServidorPPP.exe
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\09-ServidorPPP\bin\Debug\09-ServidorPPP.pdb
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\09-ServidorPPP\obj\Debug\_09_ServidorPPP.Form1.resources
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\09-ServidorPPP\obj\Debug\_09_ServidorPPP.Properties.Resources.resources
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\09-ServidorPPP\obj\Debug\09-ServidorPPT.csproj.GenerateResource.cache
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\09-ServidorPPP\obj\Debug\09-ServidorPPT.csproj.CoreCompileInputs.cache
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\09-ServidorPPP\obj\Debug\09-ServidorPPP.exe
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\09-ServidorPPP\obj\Debug\09-ServidorPPP.pdb
