@@ -11,6 +11,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/*
+ *HOLA SOCKET - SERVIDOR
+ */
+
 namespace _01_HolaSocketServidor
 {
     public partial class Form1 : Form

@@ -11,6 +11,11 @@ using System.Net;
 using System.Net.Sockets;
 using System.Diagnostics;
 
+
+/*
+ *HOLA SOCKET - CLIENTE
+ */
+
 namespace _02_HolaSocketCliente
 {
     public partial class Form1 : Form
@@ -30,7 +35,7 @@ namespace _02_HolaSocketCliente
                 miSocketCliente.Connect(servidor);
                 Debug.WriteLine("Conectado con éxito.");
 
-                miSocketCliente.Close(); // No sería necesari ya que cerramos el servidor.
+                miSocketCliente.Close(); // No sería necesario ya que cerramos el servidor.
             }
             catch (Exception error)
             {

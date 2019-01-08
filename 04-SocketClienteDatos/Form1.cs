@@ -11,6 +11,11 @@ using System.Net;
 using System.Net.Sockets;
 using System.Diagnostics;
 
+
+/*
+ *DATOS SOCKET - CLIENTE
+ */
+
 namespace _04_SocketClienteDatos
 {
     public partial class Form1 : Form

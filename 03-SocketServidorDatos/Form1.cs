@@ -11,6 +11,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/*
+ *DATOS SOCKET - SERVIDOR
+ */
+
 namespace _03_SocketServidorDatos
 {
     public partial class Form1 : Form

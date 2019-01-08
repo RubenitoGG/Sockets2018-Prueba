@@ -54,7 +54,7 @@ namespace _09_ServidorPPP
             string data;
             NetworkStream netStream = cliente.GetStream();
             StreamReader reader = new StreamReader(netStream);
-            StreamWriter writer = new StreamWriter(netStream);
+            StreamWriter writer = new StreamWriter(netStream, Encoding.UTF8);
 
             // Informe de protocolo:
             writer.WriteLine("#INSCRIBIR#nombre#");
@@ -72,6 +72,7 @@ namespace _09_ServidorPPP
                     Debug.WriteLine(data);
 
                     string[] subdatos = data.Split('#');
+
                     #region comINSCRIBIR
                     if (subdatos[1] == "INSCRIBIR")
                     {
@@ -99,7 +100,79 @@ namespace _09_ServidorPPP
                         }
                     }
                     #endregion comINSCRIBIR
+                    #region comJUGADA
+                    if (subdatos[1] == "jugada")
+                    {
+                        if ((subdatos[2] != "piedra") && (subdatos[2] != "papel") && (subdatos[2] != "tijera"))
+                        {
+                            writer.WriteLine("#NOK#valores validos: piedra/papel/tijera");
+                            writer.Flush();
+                        }
+                        // Comprobar quien hace la jugada:
+                        else if (idJ1 == cliente.Client.RemoteEndPoint.ToString() ||
+                                idJ2 == cliente.Client.RemoteEndPoint.ToString())
+                        {
+                            if (idJ1 == cliente.Client.RemoteEndPoint.ToString()) // Estamos en el jugador 1.
+                            {
+                                jugadaJ1 = subdatos[2];
+                                // Pausar hasta que jugador2 no haga su jugada:
+                                while (jugadaJ2 == "")
+                                {
+                                    Thread.Sleep(100);
+                                }
+                            }
+                            else // Estamos en el jugador 2.
+                            {
+                                jugadaJ2 = subdatos[2];
+                                while (jugadaJ2 == "") Thread.Sleep(100);
+                            }
 
+                            // Resolver la jugada:
+                            // Gana el 1:
+                            if ((jugadaJ1 == "piedra" && jugadaJ2 == "tijera") ||
+                                (jugadaJ1 == "papel" && jugadaJ2 == "piedra") ||
+                                (jugadaJ1 == "tijera" && jugadaJ2 == "papel"))
+                            {
+                                writer.WriteLine("#OK#GANADOR:" + nombreJ1 + "#");
+                                writer.Flush();
+                                puntosJ1++;
+                            }
+                            // Gana el 2:
+                            else if ((jugadaJ2 == "piedra" && jugadaJ1 == "tijera") ||
+                                (jugadaJ2 == "papel" && jugadaJ1 == "piedra") ||
+                                (jugadaJ2 == "tijera" && jugadaJ1 == "papel"))
+                            {
+                                writer.WriteLine("#OK#GANADOR:" + nombreJ2 + "#");
+                                writer.Flush();
+                                puntosJ2++;
+                            }
+                            // Empate:
+                            else
+                            {
+                                writer.WriteLine("#OK#EMPATE#");
+                                writer.Flush();
+                            }
+
+                            // 
+                            Thread.Sleep(1000);
+                            jugadaJ1 = "";
+                            jugadaJ2 = "";
+                        }
+                        else
+                        {
+                            writer.WriteLine("#NOK#el jugador no esta en la partida#");
+                            writer.Flush();
+                        }
+                    }
+                    #endregion
+                    #region comPUNTUACION
+                    if (subdatos[1] == "PUNTUACION")
+                    {
+                        writer.WriteLine("#OK#" + nombreJ1 + ":" + puntosJ1.ToString() + "#"
+                                                + nombreJ2 + ":" + puntosJ2.ToString() + "#");
+                        writer.Flush();
+                    }
+                    #endregion
 
                 }
                 catch (Exception error)
