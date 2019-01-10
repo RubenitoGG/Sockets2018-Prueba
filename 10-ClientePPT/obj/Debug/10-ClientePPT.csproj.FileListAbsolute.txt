@@ -1,0 +1,10 @@
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\10-ClientePPT\bin\Debug\10-ClientePPT.exe.config
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\10-ClientePPT\bin\Debug\10-ClientePPT.exe
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\10-ClientePPT\bin\Debug\10-ClientePPT.pdb
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\10-ClientePPT\obj\Debug\10-ClientePPT.csprojAssemblyReference.cache
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\10-ClientePPT\obj\Debug\_10_ClientePPT.Form1.resources
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\10-ClientePPT\obj\Debug\_10_ClientePPT.Properties.Resources.resources
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\10-ClientePPT\obj\Debug\10-ClientePPT.csproj.GenerateResource.cache
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\10-ClientePPT\obj\Debug\10-ClientePPT.csproj.CoreCompileInputs.cache
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\10-ClientePPT\obj\Debug\10-ClientePPT.exe
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\10-ClientePPT\obj\Debug\10-ClientePPT.pdb

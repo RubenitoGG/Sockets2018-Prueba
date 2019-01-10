@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-MultiSocketCliente", "08
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-ServidorPPT", "09-ServidorPPP\09-ServidorPPT.csproj", "{D06374C5-E48D-4651-80C2-A1E1578D8911}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-ClientePPT", "10-ClientePPT\10-ClientePPT.csproj", "{FE5015D7-8F23-46E9-84CC-5DFB61566526}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D06374C5-E48D-4651-80C2-A1E1578D8911}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D06374C5-E48D-4651-80C2-A1E1578D8911}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D06374C5-E48D-4651-80C2-A1E1578D8911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5015D7-8F23-46E9-84CC-5DFB61566526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5015D7-8F23-46E9-84CC-5DFB61566526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5015D7-8F23-46E9-84CC-5DFB61566526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5015D7-8F23-46E9-84CC-5DFB61566526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

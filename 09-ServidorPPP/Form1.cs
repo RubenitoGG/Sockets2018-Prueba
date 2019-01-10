@@ -101,7 +101,7 @@ namespace _09_ServidorPPP
                     }
                     #endregion comINSCRIBIR
                     #region comJUGADA
-                    if (subdatos[1] == "jugada")
+                    if (subdatos[1] == "JUGADA")
                     {
                         if ((subdatos[2] != "piedra") && (subdatos[2] != "papel") && (subdatos[2] != "tijera"))
                         {
@@ -124,7 +124,7 @@ namespace _09_ServidorPPP
                             else // Estamos en el jugador 2.
                             {
                                 jugadaJ2 = subdatos[2];
-                                while (jugadaJ2 == "") Thread.Sleep(100);
+                                while (jugadaJ1 == "") Thread.Sleep(100);
                             }
 
                             // Resolver la jugada:
