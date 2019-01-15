@@ -1,0 +1,10 @@
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\11-ServidorPPTSondeo\bin\Debug\11-ServidorPPTSondeo.exe.config
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\11-ServidorPPTSondeo\bin\Debug\11-ServidorPPTSondeo.exe
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\11-ServidorPPTSondeo\bin\Debug\11-ServidorPPTSondeo.pdb
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\11-ServidorPPTSondeo\obj\Debug\11-ServidorPPTSondeo.csprojAssemblyReference.cache
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\11-ServidorPPTSondeo\obj\Debug\_11_ServidorPPTSondeo.Form1.resources
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\11-ServidorPPTSondeo\obj\Debug\_11_ServidorPPTSondeo.Properties.Resources.resources
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\11-ServidorPPTSondeo\obj\Debug\11-ServidorPPTSondeo.csproj.GenerateResource.cache
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\11-ServidorPPTSondeo\obj\Debug\11-ServidorPPTSondeo.csproj.CoreCompileInputs.cache
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\11-ServidorPPTSondeo\obj\Debug\11-ServidorPPTSondeo.exe
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\11-ServidorPPTSondeo\obj\Debug\11-ServidorPPTSondeo.pdb
