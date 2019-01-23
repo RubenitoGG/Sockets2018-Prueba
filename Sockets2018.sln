@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-ClientePPT", "10-Cliente
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-ServidorPPTSondeo", "11-ServidorPPTSondeo\11-ServidorPPTSondeo.csproj", "{ECB85CCE-D5F2-479D-80A8-1A56C694946B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-ClientePPTSondeo", "12-ClientePPTSondeo\12-ClientePPTSondeo.csproj", "{8DC7D30E-BE69-452C-AF7B-6D7910701817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-ServidorPPTFullDuplex", "13-ServidorPPTFullDuplex\13-ServidorPPTFullDuplex.csproj", "{BA905163-AAD1-47D7-BB19-30E5FFD21EA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{ECB85CCE-D5F2-479D-80A8-1A56C694946B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECB85CCE-D5F2-479D-80A8-1A56C694946B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECB85CCE-D5F2-479D-80A8-1A56C694946B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC7D30E-BE69-452C-AF7B-6D7910701817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC7D30E-BE69-452C-AF7B-6D7910701817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC7D30E-BE69-452C-AF7B-6D7910701817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC7D30E-BE69-452C-AF7B-6D7910701817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA905163-AAD1-47D7-BB19-30E5FFD21EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA905163-AAD1-47D7-BB19-30E5FFD21EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA905163-AAD1-47D7-BB19-30E5FFD21EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA905163-AAD1-47D7-BB19-30E5FFD21EA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,7 +13,8 @@ using System.Diagnostics;
 using System.Net.Sockets;
 using System.Net;
 
-namespace _11_ServidorPPTSondeo
+
+namespace _13_ServidorPPTFullDuplex
 {
     public partial class Form1 : Form
     {
@@ -21,11 +22,15 @@ namespace _11_ServidorPPTSondeo
         string idJ1 = ""; // Referencia IP:port.
         string jugadaJ1 = ""; // Piedra, papel o tijera.
         int puntosJ1 = 0;
+        string listenPortJ1 = "";
+        string ipJ1 = "";
 
         string nombreJ2 = ""; // Nick.
         string idJ2 = ""; // Referencia IP:port.
         string jugadaJ2 = ""; // Piedra, papel o tijera.
         int puntosJ2 = 0;
+        string listenPortJ2 = "";
+        string ipJ2 = "";
 
         int numJugada = 1; // Indice de jugada en curso.
         string[] textoVueltaJugada = new string[100]; // Guardar resultado jugadas (historico).
@@ -38,6 +43,13 @@ namespace _11_ServidorPPTSondeo
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+            Thread t = new Thread(EsperarCliente);
+            t.Start();
+            this.button1.Enabled = false;
+        }
+
+        private void EsperarCliente()
         {
             TcpListener newSocket = new TcpListener(IPAddress.Any, 2000);
             newSocket.Start();
@@ -87,6 +99,8 @@ namespace _11_ServidorPPTSondeo
                             // Guardamos el jugador 1:
                             nombreJ1 = subdatos[2];
                             idJ1 = cliente.Client.RemoteEndPoint.ToString();
+                            ipJ1 = idJ1.Split(':')[0];
+                            listenPortJ1 = subdatos[3];
                             writer.WriteLine("#OK#");
                             writer.Flush();
                         }
@@ -95,6 +109,8 @@ namespace _11_ServidorPPTSondeo
                             // Si ya hay jugador uno guardamos el jugador 2:
                             nombreJ2 = subdatos[2];
                             idJ2 = cliente.Client.RemoteEndPoint.ToString();
+                            ipJ2 = idJ2.Split(':')[0];
+                            listenPortJ2 = subdatos[3];
                             writer.WriteLine("#OK#");
                             writer.Flush();
                         }
@@ -153,22 +169,6 @@ namespace _11_ServidorPPTSondeo
                         writer.Flush();
                     }
                     #endregion
-                    #region comRESULTADOJUGADA
-                    if (subdatos[1] == "RESULTADOJUGADA")
-                    {
-                        int numJugadaCliente = System.Convert.ToInt32(subdatos[2]); // No contempladas validaciones, numeros erróneos.
-                        if ((numJugadaCliente > 0) && (numJugadaCliente < numJugada))
-                        {
-                            writer.WriteLine(textoVueltaJugada[numJugadaCliente - 1]);
-                            writer.Flush();
-                        }
-                        else
-                        {
-                            writer.WriteLine("#NOK#numero de jugada no válido#");
-                            writer.Flush();
-                        }
-                    }
-                    #endregion
                 }
                 catch (Exception error)
                 {
@@ -201,7 +201,7 @@ namespace _11_ServidorPPTSondeo
             {
                 textoVueltaJugada[numJugada - 1] = "#OK#EMPATE#";
             }
-
+            ComunicarResultadoClientes();
             // Pasamos a la siguiente jugada:
             numJugada++;
             jugadaJ1 = "";
@@ -209,9 +209,51 @@ namespace _11_ServidorPPTSondeo
 
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        // Se usa para no alterar el hilo principal:
+        delegate void DelegadoRespuesta();
+        string dato;
+        private void EscribirFormulario()
         {
-            MessageBox.Show("hola");
+            this.label1.Text += dato + "@@@@";
+        }
+
+        private void ComunicarResultadoClientes()
+        {
+            // comunico jugada a los clientes:
+            TcpClient cliente;
+            NetworkStream netStream;
+            StreamWriter writer;
+            StreamReader reader;
+
+            DelegadoRespuesta dr = new DelegadoRespuesta(EscribirFormulario);
+
+            // Envio info al primer cliente:
+            cliente = new TcpClient(ipJ1, System.Convert.ToInt32(listenPortJ1));
+            netStream = cliente.GetStream();
+            writer = new StreamWriter(netStream);
+            reader = new StreamReader(netStream);
+
+            writer.WriteLine(textoVueltaJugada[numJugada - 1]);
+            writer.Flush();
+
+            dato = reader.ReadLine();
+            cliente.Close();
+
+            this.Invoke(dr);
+
+            // Envio info al segundo cliente:
+            cliente = new TcpClient(ipJ2, System.Convert.ToInt32(listenPortJ2));
+            netStream = cliente.GetStream();
+            writer = new StreamWriter(netStream);
+            reader = new StreamReader(netStream);
+
+            writer.WriteLine(textoVueltaJugada[numJugada - 1]);
+            writer.Flush();
+
+            dato = reader.ReadLine();
+            cliente.Close();
+
+            this.Invoke(dr);
         }
     }
 }
