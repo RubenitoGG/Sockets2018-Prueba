@@ -1,0 +1,10 @@
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\13-ServidorPPTFullDuplex\bin\Debug\13-ServidorPPTFullDuplex.exe.config
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\13-ServidorPPTFullDuplex\bin\Debug\13-ServidorPPTFullDuplex.exe
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\13-ServidorPPTFullDuplex\bin\Debug\13-ServidorPPTFullDuplex.pdb
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\13-ServidorPPTFullDuplex\obj\Debug\13-ServidorPPTFullDuplex.csprojAssemblyReference.cache
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\13-ServidorPPTFullDuplex\obj\Debug\_13_ServidorPPTFullDuplex.Form1.resources
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\13-ServidorPPTFullDuplex\obj\Debug\_13_ServidorPPTFullDuplex.Properties.Resources.resources
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\13-ServidorPPTFullDuplex\obj\Debug\13-ServidorPPTFullDuplex.csproj.GenerateResource.cache
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\13-ServidorPPTFullDuplex\obj\Debug\13-ServidorPPTFullDuplex.csproj.CoreCompileInputs.cache
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\13-ServidorPPTFullDuplex\obj\Debug\13-ServidorPPTFullDuplex.exe
+C:\Users\dam209\Desktop\PSP\Tema 2 - Sockets\Sockets Clase\13-ServidorPPTFullDuplex\obj\Debug\13-ServidorPPTFullDuplex.pdb

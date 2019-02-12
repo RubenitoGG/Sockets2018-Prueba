@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-ClientePPTSondeo", "12-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-ServidorPPTFullDuplex", "13-ServidorPPTFullDuplex\13-ServidorPPTFullDuplex.csproj", "{BA905163-AAD1-47D7-BB19-30E5FFD21EA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-ClientePPTFullDuplex", "14-ClientePPTFullDuplex\14-ClientePPTFullDuplex.csproj", "{A6380254-B5FE-46A5-8E7C-5EC494E59C12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{BA905163-AAD1-47D7-BB19-30E5FFD21EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA905163-AAD1-47D7-BB19-30E5FFD21EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA905163-AAD1-47D7-BB19-30E5FFD21EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6380254-B5FE-46A5-8E7C-5EC494E59C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6380254-B5FE-46A5-8E7C-5EC494E59C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6380254-B5FE-46A5-8E7C-5EC494E59C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6380254-B5FE-46A5-8E7C-5EC494E59C12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
